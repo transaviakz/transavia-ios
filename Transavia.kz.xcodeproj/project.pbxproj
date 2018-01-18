@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DAD45EE3E04665517BD37FC /* Pods_Transavia_kz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A183DB5647114480EA6FB2 /* Pods_Transavia_kz.framework */; };
+		AA7E0A5E1FD927B7002FA891 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7E0A5D1FD927B7002FA891 /* TabViewController.swift */; };
+		AA7E0A601FD927D8002FA891 /* AirplaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7E0A5F1FD927D8002FA891 /* AirplaneViewController.swift */; };
+		AA7E0A621FD927E1002FA891 /* HotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7E0A611FD927E1002FA891 /* HotelViewController.swift */; };
+		AA7E0A641FD927EC002FA891 /* TrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7E0A631FD927EC002FA891 /* TrainViewController.swift */; };
+		AA7E0A661FD92960002FA891 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7E0A651FD92960002FA891 /* MenuViewController.swift */; };
+		AA7E0A681FD9298D002FA891 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7E0A671FD9298D002FA891 /* Variables.swift */; };
+		AA8A85811FD96A3800F68A87 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A85801FD96A3800F68A87 /* Functions.swift */; };
+		AABBC9271FF7501E0007A727 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBC9261FF7501E0007A727 /* extensions.swift */; };
+		AADB45311FCFD36D000A939A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADB45301FCFD36D000A939A /* AppDelegate.swift */; };
+		AADB45361FCFD36D000A939A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADB45341FCFD36D000A939A /* Main.storyboard */; };
+		AADB45381FCFD36D000A939A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADB45371FCFD36D000A939A /* Assets.xcassets */; };
+		AADB453B1FCFD36D000A939A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADB45391FCFD36D000A939A /* LaunchScreen.storyboard */; };
+		AADDBE971FFDE51D00709375 /* MenuDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADDBE961FFDE51D00709375 /* MenuDetailViewController.swift */; };
+		AAFCD56F1FD7F4E000F6697B /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCD56E1FD7F4E000F6697B /* MainPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13A183DB5647114480EA6FB2 /* Pods_Transavia_kz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transavia_kz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2561DE7AC45C24F703DB569C /* Pods-Transavia.kz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transavia.kz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Transavia.kz/Pods-Transavia.kz.release.xcconfig"; sourceTree = "<group>"; };
+		AA7E0A5D1FD927B7002FA891 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		AA7E0A5F1FD927D8002FA891 /* AirplaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneViewController.swift; sourceTree = "<group>"; };
+		AA7E0A611FD927E1002FA891 /* HotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelViewController.swift; sourceTree = "<group>"; };
+		AA7E0A631FD927EC002FA891 /* TrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainViewController.swift; sourceTree = "<group>"; };
+		AA7E0A651FD92960002FA891 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		AA7E0A671FD9298D002FA891 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		AA8A85801FD96A3800F68A87 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		AABBC9261FF7501E0007A727 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		AADB452D1FCFD36D000A939A /* Transavia.kz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transavia.kz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADB45301FCFD36D000A939A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AADB45351FCFD36D000A939A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AADB45371FCFD36D000A939A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AADB453A1FCFD36D000A939A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AADB453C1FCFD36D000A939A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADDBE961FFDE51D00709375 /* MenuDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetailViewController.swift; sourceTree = "<group>"; };
+		AAFCD56E1FD7F4E000F6697B /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		F519E756884428E5D829A613 /* Pods-Transavia.kz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transavia.kz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Transavia.kz/Pods-Transavia.kz.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AADB452A1FCFD36D000A939A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAD45EE3E04665517BD37FC /* Pods_Transavia_kz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8482213AFB23D523B8FF4C79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F519E756884428E5D829A613 /* Pods-Transavia.kz.debug.xcconfig */,
+				2561DE7AC45C24F703DB569C /* Pods-Transavia.kz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AADB45241FCFD36D000A939A = {
+			isa = PBXGroup;
+			children = (
+				AADB452F1FCFD36D000A939A /* Transavia.kz */,
+				AADB452E1FCFD36D000A939A /* Products */,
+				8482213AFB23D523B8FF4C79 /* Pods */,
+				CC6E3111719192902EC1F62C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AADB452E1FCFD36D000A939A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AADB452D1FCFD36D000A939A /* Transavia.kz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AADB452F1FCFD36D000A939A /* Transavia.kz */ = {
+			isa = PBXGroup;
+			children = (
+				AADB45301FCFD36D000A939A /* AppDelegate.swift */,
+				AA7E0A671FD9298D002FA891 /* Variables.swift */,
+				AABBC9261FF7501E0007A727 /* extensions.swift */,
+				AA8A85801FD96A3800F68A87 /* Functions.swift */,
+				AAFCD56E1FD7F4E000F6697B /* MainPageViewController.swift */,
+				AA7E0A5D1FD927B7002FA891 /* TabViewController.swift */,
+				AA7E0A5F1FD927D8002FA891 /* AirplaneViewController.swift */,
+				AA7E0A611FD927E1002FA891 /* HotelViewController.swift */,
+				AA7E0A631FD927EC002FA891 /* TrainViewController.swift */,
+				AA7E0A651FD92960002FA891 /* MenuViewController.swift */,
+				AADDBE961FFDE51D00709375 /* MenuDetailViewController.swift */,
+				AADB45341FCFD36D000A939A /* Main.storyboard */,
+				AADB45371FCFD36D000A939A /* Assets.xcassets */,
+				AADB45391FCFD36D000A939A /* LaunchScreen.storyboard */,
+				AADB453C1FCFD36D000A939A /* Info.plist */,
+			);
+			path = Transavia.kz;
+			sourceTree = "<group>";
+		};
+		CC6E3111719192902EC1F62C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13A183DB5647114480EA6FB2 /* Pods_Transavia_kz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AADB452C1FCFD36D000A939A /* Transavia.kz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADB453F1FCFD36D000A939A /* Build configuration list for PBXNativeTarget "Transavia.kz" */;
+			buildPhases = (
+				FACB0F0F86C0F0FA067C990F /* [CP] Check Pods Manifest.lock */,
+				AADB45291FCFD36D000A939A /* Sources */,
+				AADB452A1FCFD36D000A939A /* Frameworks */,
+				AADB452B1FCFD36D000A939A /* Resources */,
+				199B3635D2D45E25869B7B15 /* [CP] Embed Pods Frameworks */,
+				87C20A45573AD963D6BCD811 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Transavia.kz;
+			productName = Transavia.kz;
+			productReference = AADB452D1FCFD36D000A939A /* Transavia.kz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AADB45251FCFD36D000A939A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Erbol ";
+				TargetAttributes = {
+					AADB452C1FCFD36D000A939A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AADB45281FCFD36D000A939A /* Build configuration list for PBXProject "Transavia.kz" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AADB45241FCFD36D000A939A;
+			productRefGroup = AADB452E1FCFD36D000A939A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AADB452C1FCFD36D000A939A /* Transavia.kz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AADB452B1FCFD36D000A939A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADB453B1FCFD36D000A939A /* LaunchScreen.storyboard in Resources */,
+				AADB45381FCFD36D000A939A /* Assets.xcassets in Resources */,
+				AADB45361FCFD36D000A939A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		199B3635D2D45E25869B7B15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Transavia.kz/Pods-Transavia.kz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyPeasy.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Transavia.kz/Pods-Transavia.kz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C20A45573AD963D6BCD811 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Transavia.kz/Pods-Transavia.kz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FACB0F0F86C0F0FA067C990F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Transavia.kz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AADB45291FCFD36D000A939A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E0A5E1FD927B7002FA891 /* TabViewController.swift in Sources */,
+				AA7E0A621FD927E1002FA891 /* HotelViewController.swift in Sources */,
+				AA8A85811FD96A3800F68A87 /* Functions.swift in Sources */,
+				AA7E0A681FD9298D002FA891 /* Variables.swift in Sources */,
+				AAFCD56F1FD7F4E000F6697B /* MainPageViewController.swift in Sources */,
+				AADDBE971FFDE51D00709375 /* MenuDetailViewController.swift in Sources */,
+				AABBC9271FF7501E0007A727 /* extensions.swift in Sources */,
+				AADB45311FCFD36D000A939A /* AppDelegate.swift in Sources */,
+				AA7E0A601FD927D8002FA891 /* AirplaneViewController.swift in Sources */,
+				AA7E0A641FD927EC002FA891 /* TrainViewController.swift in Sources */,
+				AA7E0A661FD92960002FA891 /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AADB45341FCFD36D000A939A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AADB45351FCFD36D000A939A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AADB45391FCFD36D000A939A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AADB453A1FCFD36D000A939A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AADB453D1FCFD36D000A939A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AADB453E1FCFD36D000A939A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AADB45401FCFD36D000A939A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F519E756884428E5D829A613 /* Pods-Transavia.kz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89X469C8G4;
+				INFOPLIST_FILE = Transavia.kz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rauan.assabayev.Transavia-kz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AADB45411FCFD36D000A939A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2561DE7AC45C24F703DB569C /* Pods-Transavia.kz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89X469C8G4;
+				INFOPLIST_FILE = Transavia.kz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rauan.assabayev.Transavia-kz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AADB45281FCFD36D000A939A /* Build configuration list for PBXProject "Transavia.kz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADB453D1FCFD36D000A939A /* Debug */,
+				AADB453E1FCFD36D000A939A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AADB453F1FCFD36D000A939A /* Build configuration list for PBXNativeTarget "Transavia.kz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADB45401FCFD36D000A939A /* Debug */,
+				AADB45411FCFD36D000A939A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AADB45251FCFD36D000A939A /* Project object */;
+}
